@@ -1,0 +1,43 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fefefe;
+    color: #020202;
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+}
+
+.fs-8 {
+  font-size: 14px;
+}
+
+.quote {
+  z-index: -1;
+  color: #bababa;
+}
+
+.card-blur {
+  backdrop-filter: blur(10px);
+}
+
+.dark-theme {
+  background-color: #30332E;
+  color: rgb(214, 214, 214);
+  transition: all 400ms ease-in-out;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+}
+
+.bg-dark-variant {
+  background-color: #090909;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
